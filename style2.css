@@ -1,20 +1,28 @@
-.center{
-    margin: auto;
-    width:90%;
-    border: 3px solid #73AD21;
-    padding: 10px;
-}
-h1{
+/* CSS for Tribute Page */
+
+/* Center align the content */
+.center {
+    text-align: center;
+    border: 3px solid green;
+  }
+  
+  /* Style for the heading */
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
     width:50rem auto;
     height: 2.6rem auto;
     display: flex;
     justify-content: center;
     background-color: lightgreen;
     border-radius:4px;
-}
+  }
+  
 h2{
     padding-top: 1vh;
     width:50rem auto;
+    font-size: 2rem;
+    margin-top: 2rem;
     height: 2.6rem auto;
     display: flex;
     justify-content: center;
@@ -22,23 +30,24 @@ h2{
     background-color: #03A9F4;
     border-radius:4px;
 }
-h3{
-    width:40rem auto;
-    text-align: center;
-}
-.tweet{
-    width:auto;
-    position:relative;
-}
-div.image{
-    width:auto;
-    position: relative;
-}
-.insta{
-    width:auto;
-    position:relative;
-}
-#photo{
+  
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  /* Style for the tweet section */
+  .tweet {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style for the image section */
+  .image {
+    display: flex;
+    justify-content: center;
+  }
+  #photo{
     color: #000;
     background-color: #F8E13A;
 }
@@ -51,10 +60,14 @@ div.image{
     width:45vw auto;
     background-color:lightgreen;
 }
-.song{
-    width:auto; 
-    position:relative;
-}
-blockquote{
-    width:100%;
-}
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for the Instagram section */
+  .insta {
+    display: flex;
+    justify-content: center;
+  }
+  
