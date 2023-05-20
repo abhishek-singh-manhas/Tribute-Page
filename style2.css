@@ -47,8 +47,8 @@ h2{
     justify-content: center;
   }
   #photo{
-    color: #000;
-    background-color: #F8E13A;
+    color: rgb(83, 83, 83);
+    background-color: lightgreen;
 }
 #instahead{
     color: white;
