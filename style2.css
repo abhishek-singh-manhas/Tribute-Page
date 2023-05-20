@@ -1,6 +1,6 @@
 .center{
     margin: auto;
-    width:80%;
+    width:95%;
     border: 3px solid #73AD21;
     padding: 10px;
 }
@@ -31,8 +31,7 @@ h3{
     position:relative;
 }
 .image{
-    width:auto;
-    position:relative;
+    position: relative;
 }
 .insta{
     width:auto;
