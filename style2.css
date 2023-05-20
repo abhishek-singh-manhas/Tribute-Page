@@ -5,34 +5,41 @@
     padding: 10px;
 }
 h1{
-    width:50rem;
-    height: 2.6rem;
+    width:50rem auto;
+    height: 2.6rem auto;
     display: flex;
     justify-content: center;
     background-color: lightgreen;
+    border-radius:4px;
 }
 h2{
-    padding-top: 2vh;
-    width:50rem;
-    height: 2.6rem;
+    padding-top: 1vh;
+    width:50rem auto;
+    height: 2.6rem auto;
     display: flex;
     justify-content: center;
     color: white;
     background-color: #03A9F4;
+    border-radius:4px;
 }
 h3{
-    width:40rem;
-    margin-left:6vw;
+    width:40rem auto;
     text-align: center;
 }
 .tweet{
-    margin-left: 9vw;
+    margin-left: 9vw auto;
+    width:45vw auto;
+    position:relative;
 }
 .image{
-    margin-left: 10.6vw;
+    margin-left: 10.6vw auto;
+    width:45vw auto;
+    position:relative;
 }
 .insta{
-    margin-left: 8.5vw;
+    margin-left: 8.5vw auto;
+    width:45vw auto;
+    position:relative;
 }
 #photo{
     color: #000;
@@ -44,10 +51,11 @@ h3{
 }
 #map{
     color: rgb(83, 83, 83);
+    width:45vw auto;
     background-color:lightgreen;
 }
 .song{
-    width:45vw; 
-    margin-left: 7vw;
+    width:45vw auto; 
+    margin-left: 7vw auto;
     position:relative;
 }
