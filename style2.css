@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    width:50rem;
+    height: 2.6rem;
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+}
+h2{
+    padding-top: 2vh;
+    width:50rem;
+    height: 2.6rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #03A9F4;
+}
+h3{
+    width:40rem;
+    margin-left:6vw;
+    text-align: center;
+}
+.tweet{
+    margin-left: 9vw;
+}
+.image{
+    margin-left: 10.6vw;
+}
+.insta{
+    margin-left: 8.5vw;
+}
+#photo{
+    color: #000;
+    background-color: #F8E13A;
+}
+#instahead{
+    color: white;
+    background-image: linear-gradient(to right, #FFB701,#FF2C45,#CD00B6,#A62EB2,#4F58C6);
+}
+#map{
+    color: rgb(83, 83, 83);
+    background-color:lightgreen;
+}
+.song{
+    width:45vw; 
+    margin-left: 7vw;
+    position:relative;
+}
