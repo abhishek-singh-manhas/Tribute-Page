@@ -1,6 +1,6 @@
 .center{
     margin: auto;
-    width:60%;
+    width:80%;
     border: 3px solid #73AD21;
     padding: 10px;
 }
@@ -27,18 +27,15 @@ h3{
     text-align: center;
 }
 .tweet{
-    margin-left: 9vw auto;
-    width:45vw auto;
+    width:auto;
     position:relative;
 }
 .image{
-    margin-left: 10.6vw auto;
-    width:45vw auto;
+    width:auto;
     position:relative;
 }
 .insta{
-    margin-left: 8.5vw auto;
-    width:45vw auto;
+    width:auto;
     position:relative;
 }
 #photo{
@@ -55,7 +52,9 @@ h3{
     background-color:lightgreen;
 }
 .song{
-    width:45vw auto; 
-    margin-left: 7vw auto;
+    width:auto; 
     position:relative;
+}
+blockquote{
+    width:100%;
 }
